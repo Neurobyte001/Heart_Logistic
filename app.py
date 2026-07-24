@@ -7,6 +7,14 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+import streamlit as st
+
+st.set_page_config(
+    page_title="Heart Disease Prediction",
+    page_icon="favicon.png",
+    layout="wide"
+)
+
 #===============================================================
 
 # Loading saved model and preprocessing objects
